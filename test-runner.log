@@ -1,0 +1,29 @@
+2022-08-01 11:04:07 info: ----------------------------------------------
+2022-08-01 11:04:07 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2022-08-01 11:04:07 info: ----------------------------------------------
+2022-08-01 11:04:10 error: *** Unit Test Error Report ***
+
+✕ giveCompliment should give a random compliment: You are `compliment`, `name`!
+  Expected: You are great, HackYourFuture!
+  Received: You are undefined, HackYourFuture ! 
+
+
+Command failed: npx jest ex1-giveCompliment.test.js --colors --reporters="/Users/elifnurkalkan/Homework-class39/test-runner/CustomReporter.js"
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+2022-08-09 01:09:56 info: ----------------------------------------------
+2022-08-09 01:09:56 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2022-08-09 01:09:56 info: ----------------------------------------------
+2022-08-09 01:09:58 error: *** Unit Test Error Report ***
+
+✕ giveCompliment should give a random compliment: You are `compliment`, `name`!
+  Expected: You are great, HackYourFuture!
+  Received: You are great, HackYourFuture ! 
+
+
+Command failed: npx jest ex1-giveCompliment.test.js --colors --reporters="/Users/elifnurkalkan/Homework-class39/test-runner/CustomReporter.js"
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+2022-08-09 01:10:10 info: Disclaimer turned off
