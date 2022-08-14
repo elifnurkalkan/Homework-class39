@@ -30,13 +30,12 @@ const cartForParty = {
 
 function calculateTotalPrice(shopping) {
   // TODO replace this comment with your code
-  const amount = Object.values(shopping);
-  let total = 0;
-  for (let i = 0; i < amount.length; i++) {
-    total += amount[i];
-  }
+  let amount = 0;
+  Object.values(shopping).forEach((price) => {
+    amount += price;
+  });
 
-  return `Total: €${total}`;
+  return `Total: €${amount}`;
 }
 
 // ! Test functions (plain vanilla JavaScript)

@@ -1,0 +1,7 @@
+
+*** Spell Checker Report ***
+
+ex3-tellFortune.js:53:34 - Unknown word (Betul)
+ex3-tellFortune.js:53:43 - Unknown word (Aydin)
+ex3-tellFortune.js:53:52 - Unknown word (Zeynep)
+ex3-tellFortune.js:53:62 - Unknown word (Mihriban)

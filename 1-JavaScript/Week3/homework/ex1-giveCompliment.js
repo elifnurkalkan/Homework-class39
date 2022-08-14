@@ -32,11 +32,10 @@ function giveCompliment(name) {
     'cool',
   ];
 
-  const complimentId = [Math.floor(Math.random() * compliments.length)];
+  const compliment =
+    compliments[Math.floor(Math.random() * compliments.length)];
 
-  const compliment = compliments[complimentId];
-
-  return `You are ${compliment}, ${name} ! `;
+  return `You are ${compliment}, ${name}!`;
 }
 
 function main() {
