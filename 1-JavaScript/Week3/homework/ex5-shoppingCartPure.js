@@ -23,7 +23,7 @@ function addToShoppingCart(shoppingCartArray, item) {
     newShoppingCartArray.shift();
   }
 
-  return newShoppingCartArray;
+  return newShoppingCartArray.slice(-3);
 }
 
 // ! Test functions (plain vanilla JavaScript)
