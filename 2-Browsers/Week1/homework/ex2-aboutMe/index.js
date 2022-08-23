@@ -1,4 +1,5 @@
 'use strict';
+
 /*------------------------------------------------------------------------------
 Full description at: https://github.com/HackYourFuture/Homework/tree/main/2-Browsers/Week1#exercise-2-about-me
 
@@ -10,3 +11,15 @@ Full description at: https://github.com/HackYourFuture/Homework/tree/main/2-Brow
 ------------------------------------------------------------------------------*/
 
 // TODO add your JavaScript code here.
+
+const nickName = document.getElementById('nickname');
+nickName.textContent = 'elf';
+
+const favFood = document.getElementById('fav-food');
+favFood.textContent = 'pizza';
+
+const hometown = document.getElementById('hometown');
+hometown.textContent = 'Istanbul';
+
+const listItems = document.querySelectorAll('li');
+listItems.forEach((listItem) => (listItem.className = 'list-item'));
