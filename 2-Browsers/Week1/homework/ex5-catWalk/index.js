@@ -21,15 +21,34 @@ Full description at: https://github.com/HackYourFuture/Homework/tree/main/2-Brow
 
    https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif
 -----------------------------------------------------------------------------*/
-// I am still trying to do this exercise :(
+
+const element = document.querySelector('img');
+let position = 0;
+
+const walkingCat = 'http://www.anniemation.com/clip_art/images/cat-walk.gif';
+const dancingCat =
+  'https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif';
+
+let walkInt = setInterval(catWalk, 50);
 
 function catWalk() {
-  const element = document.querySelector('img');
-  const walkingCat = 'http://www.anniemation.com/clip_art/images/cat-walk.gif';
-  const dancingCat =
-    'https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif';
+  position += 10;
+  element.style.left = position + 'px';
 
-  let walk = setInterval(catWalk, 50);
+  if (
+    position >= (window.innerWidth - element.width) / 2 - 7 &&
+    position < (window.innerWidth - element.width) / 2 + 7
+  ) {
+    element.src = dancingCat;
+    clearInterval(walkInt);
+    setTimeout(() => {
+      element.src = walkingCat;
+      walkInt = setInterval(catWalk, 50);
+    }, 5000);
+  } else if (position > window.innerWidth) {
+    position = 0;
+  }
 }
 
+window.addEventListener('load', catWalk);
 // TODO execute `catWalk` when the browser has completed loading the page

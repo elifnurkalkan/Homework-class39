@@ -13,7 +13,7 @@ Full description at: https://github.com/HackYourFuture/Homework/tree/main/2-Brow
 // TODO add your JavaScript code here.
 
 const nickName = document.getElementById('nickname');
-nickName.textContent = 'elf';
+nickName.textContent = 'elif';
 
 const favFood = document.getElementById('fav-food');
 favFood.textContent = 'pizza';
