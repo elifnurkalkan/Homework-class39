@@ -1,6 +1,6 @@
 'use strict';
 
-const { reject } = require('lodash');
+
 
 /*------------------------------------------------------------------------------
 Full description at: https://github.com/HackYourFuture/Homework/tree/main/3-UsingAPIs/Week1#exercise-2-is-it-a-double-digit-number
