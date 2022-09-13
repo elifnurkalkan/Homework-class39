@@ -1,0 +1,64 @@
+{
+  "node": "v16.16.0",
+  "system": {
+    "manufacturer": "Apple Inc.",
+    "model": "MacBookPro17,1"
+  },
+  "cpu": {
+    "manufacturer": "Apple",
+    "brand": "M1",
+    "speed": 2.4
+  },
+  "memory": "8 GB",
+  "osInfo": {
+    "platform": "darwin",
+    "distro": "macOS",
+    "release": "12.4"
+  },
+  "vscodeInfo": {
+    "version": "1.71.0",
+    "extensions": [
+      "aaron-bond.better-comments",
+      "bierner.github-markdown-preview",
+      "bierner.markdown-checkbox",
+      "bierner.markdown-emoji",
+      "bierner.markdown-footnotes",
+      "bierner.markdown-mermaid",
+      "bierner.markdown-preview-github-styles",
+      "bierner.markdown-yaml-preamble",
+      "DavidAnson.vscode-markdownlint",
+      "dbaeumer.vscode-eslint",
+      "eamodio.gitlens",
+      "esbenp.prettier-vscode",
+      "formulahendry.code-runner",
+      "ritwickdey.LiveServer",
+      "streetsidesoftware.code-spell-checker",
+      "techer.open-in-browser"
+    ],
+    "userSettings": {
+      "editor.bracketPairColorization.enabled": true,
+      "editor.detectIndentation": false,
+      "editor.formatOnSave": true,
+      "editor.minimap.enabled": false,
+      "editor.tabSize": 2,
+      "editor.codeActionsOnSave": {
+        "source.fixAll": true
+      },
+      "eslint.autoFixOnSave": true,
+      "prettier.singleQuote": true,
+      "prettier.trailingComma": "all",
+      "editor.guides.indentation": true,
+      "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+      "liveServer.settings.ChromeDebuggingAttachment": false,
+      "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "editor.wordWrap": "on",
+      "liveServer.settings.donotShowInfoMsg": true,
+      "git.suggestSmartCommit": false,
+      "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      }
+    }
+  }
+}
