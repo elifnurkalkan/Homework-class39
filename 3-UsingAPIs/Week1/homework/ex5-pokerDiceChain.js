@@ -13,7 +13,7 @@ to expand the given promise chain to include five dice.
 // The line below makes the rollDie() function available to this file.
 // Do not change or remove it.
 const rollDie = require('../../helpers/pokerDiceRoller');
-
+//Adding promise-chain
 function rollDice() {
   const results = [];
 

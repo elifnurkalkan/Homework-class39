@@ -1,7 +1,5 @@
 'use strict';
 
-
-
 /*------------------------------------------------------------------------------
 Full description at: https://github.com/HackYourFuture/Homework/tree/main/3-UsingAPIs/Week1#exercise-2-is-it-a-double-digit-number
 
@@ -15,6 +13,7 @@ Complete the function called `checkDoubleDigits` such that:
   "Expected a double digit number but got `number`", where `number` is the 
   number that was passed as an argument.
 ------------------------------------------------------------------------------*/
+//Question2
 function checkDoubleDigits(num) {
   return new Promise((resolve, reject) => {
     if (num > 9 && num < 100) {
