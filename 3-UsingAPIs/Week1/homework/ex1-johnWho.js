@@ -24,7 +24,13 @@ const getAnonName = (firstName) => {
 };
 
 function main() {
-  getAnonName('John');
+  getAnonName('John')
+    .then((resolvedValue) => {
+      console.log(resolvedValue);
+    })
+    .catch((error) => {
+      console.log(error.message);
+    });
 }
 
 if (process.env.NODE_ENV !== 'test') {
